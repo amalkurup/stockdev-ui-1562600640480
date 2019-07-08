@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": false,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "org.app.ui",
+    "packageFolder": "org/app/ui",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "monolith",
+    "baseName": "uiapplication",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "jhipsterVersion": "5.8.2",
+    "skipUserManagement": false,
+    "jwtSecretKey": "YmNlOWNjMmVlNzA2ZWYxMTJhYjA4ZTI5MzkzYmZmNzUwNDNkYWJiZmE5ZDQwMzZmNTA4ZjIwZjdiOTMxYjI2NjQzNmFmZWI5MmI5OTkyZTY5YmJlZjNjNDM2YzM5YThlYTk2NWQwNDFhMDEyYTU2OTljYmRhNzdmNjRjMzUzNGQ=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer"
+  ]
+}
